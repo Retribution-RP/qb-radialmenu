@@ -33,6 +33,13 @@ Config.MenuItems = {
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
             }, {
+                id = 'joinradio1',
+                title = 'Channel 1',
+                icon = 'radio',
+                type = 'client',
+                event = 'qb-radio:client:JoinRadioChannel1',
+                shouldClose = true
+            }, {
                 id = 'togglehotdogsell',
                 title = 'Hotdog Selling',
                 icon = 'hotdog',
